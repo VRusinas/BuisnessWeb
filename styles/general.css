@@ -36,13 +36,25 @@ a{
   }
   
 .border{
-  border-radius:6px;
+  border-radius:12px;
 }
   input{
   width: 500px;
   height: 50px;
   font-size: 20px;
   margin-bottom: 10px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(182, 201, 225);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(182, 201, 225);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(182, 201, 225);
 }
 
 
